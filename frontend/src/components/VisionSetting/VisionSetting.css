@@ -1,0 +1,70 @@
+
+.item1 {
+    display: flex;
+    justify-content: space-between;
+    max-height: 100px;
+    grid-column: span 4;
+    grid-row: span 1;
+}
+
+.item {
+    min-height: 180px;
+    filter: drop-shadow(30px 30px 30px rgba(0, 0, 0, 0.25));
+    padding: 30px;
+    background-color: #FCFCFE;
+    border-radius: 30px;
+    box-sizing: border-box;   
+    
+}
+
+#settingsIcon {
+    width: 20px;
+    height: 20px;
+}
+
+#aiIcon {
+    width: 100px;
+    height: 100px;
+}
+
+.rightTutorial {
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
+}
+
+#leftTutorial {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+#tutorialTitle {
+    text-align: left;
+    font-weight: bold;
+    font-size: 1.0rem;
+    color: black;
+}
+
+#tutorialText {
+    text-align: left;
+    font-size: 0.9rem;
+    line-height: 20px;
+    margin-right: 70px;
+    margin-top: -10px;
+    color: black;
+}
+
+#btnStartTutorial {
+    border: 1px solid #237fa0;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    font-size: medium;
+    background: none;
+    font-weight: bold;
+    color: #237fa0;
+    cursor: pointer;
+    margin-top: -35px;
+    padding: 10px;
+}

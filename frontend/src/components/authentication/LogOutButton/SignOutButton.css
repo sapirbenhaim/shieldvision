@@ -1,0 +1,33 @@
+#signOutButton {
+    border: 1px solid #237fa0;
+    border-radius: 10px;
+    width: 150px;
+    height: 40px;
+    font-size: medium;
+    background: none;
+    font-weight: bold;
+    color: #237fa0;
+    position: fixed;
+    top: 30px;
+    right: 60px;
+    cursor: pointer;
+    filter: drop-shadow(30px,30px,30px,rgba(0,0,0,0.25));
+}
+
+@media (max-width: 1100px) { 
+    #signOutButton {
+        border: 1px solid #237fa0;
+        border-radius: 10px;
+        width: 150px;
+        height: 40px;
+        font-size: medium;
+        background: none;
+        font-weight: bold;
+        color: #237fa0;
+        position: fixed;
+        top: 30px;
+        right: 40px;
+        cursor: pointer;
+        filter: drop-shadow(30px,30px,30px,rgba(0,0,0,0.25));
+    }
+}

@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+.actionIcon {
+    width: 20px;
+    height: 20px;
+}
+
+.actionTitle {
+    text-align: left;
+    font-weight: bold;
+    font-size: 1.0rem;
+    color: black;
+}
+
+.actionText {
+    font-family: 'Roboto';
+    text-align: left;
+    font-size: 0.9rem;
+    line-height: 20px;
+    margin-top: -10px;
+    color: black;
+}
+
+.actionItem {
+    display: flex;
+    flex-direction: column;
+    grid-row: 2/3;
+    box-sizing: border-box;
+}
+
+.actionLinkText {
+    position: fixed;
+    height: 25px;
+    text-decoration: none;
+    bottom: 20px;
+    right: 20px;
+    font-weight: bold;
+    font-size: small;
+    text-align: center;
+    height: 25px;
+    margin: 0;
+    color: black;
+}

@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+.signIn {
+    height: 100Vh;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo {
+    width: 350px;
+    margin-top: -200px;
+}
+
+.left {
+    width: 50%;
+    height: 100%;
+    padding-top: 160px;
+    padding-left: 60px;
+    padding-right: 60px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
+
+.right {
+    width: 35%;
+    height: 96%;
+    margin-right: 100px;
+}
+
+#loginTitle {
+    text-align: left;
+    color: black;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-variant-ligatures: normal;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-variant-alternates: normal;
+    font-kerning: auto;
+    font-optical-sizing: auto;
+    font-feature-settings: normal;
+    font-variation-settings: normal;
+    font-weight: 500;
+    font-stretch: normal;
+    font-size: 1.1875rem;
+    line-height: 1.5rem;
+    font-family: Roboto, sans-serif;
+    margin-top: 30px;
+}
+
+#loginSubText {
+    text-align: left;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-variant-ligatures: normal;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-variant-alternates: normal;
+    font-kerning: auto;
+    font-optical-sizing: auto;
+    font-feature-settings: normal;
+    font-variation-settings: normal;
+    font-weight: 400;
+    font-stretch: normal;
+    font-size: 0.9375rem;
+    line-height: 1.5rem;
+    font-family: Roboto, sans-serif;
+    color: black;
+}
+
+#loginActionText {
+    text-align: left;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-variant-ligatures: normal;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-variant-alternates: normal;
+    font-kerning: auto;
+    font-optical-sizing: auto;
+    font-feature-settings: normal;
+    font-variation-settings: normal;
+    font-weight: 500;
+    font-stretch: normal;
+    font-size: 0.9375rem;
+    line-height: 1.5rem;
+    font-family: Roboto, sans-serif;
+    color: black;
+    margin-top: -20px;
+}
+
+.cameraContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 650px;
+}

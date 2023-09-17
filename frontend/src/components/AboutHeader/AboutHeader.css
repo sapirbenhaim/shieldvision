@@ -1,0 +1,50 @@
+@font-face {
+    font-family: SF ProBold;
+    src: url('../../fonts/SFPRODISPLAYBOLD.OTF');
+}
+
+@font-face {
+    font-family: SF Pro;
+    src: url('../../fonts/SFPRODISPLAYREGULAR.OTF');
+}
+
+#aboutTitle {
+    text-align: center;
+    font-family: 'SF ProBold';
+}
+
+#aboutText {
+    font-family: 'SF Pro';
+    font-size: medium;
+    line-height: 20px;
+
+}
+
+#btnDemo {
+    background: linear-gradient(90.01deg, #6D6FA3 0.99%, #7E62C1 98.78%);
+    box-shadow: 30px 30px 30px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    width: 150px;
+    height: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    margin: -25px;
+    font-size: small;
+
+}
+
+.whiteLink {
+    color: #fff;
+    font-family: 'SF ProBold';
+    text-decoration: none;
+}
+
+#aboutHeader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 460px;
+}

@@ -1,0 +1,22 @@
+.infoItem {
+    width: 330px;
+    height:330px;
+    background: linear-gradient(134.24deg, rgba(110, 111, 165, 0.8) 0%, rgba(126, 99, 192, 0.8) 98.22%);
+    border-radius: 15px;
+}
+
+#infoContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px;
+    margin-top: -70px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#infoSectionTitle {
+    color: #FFF;
+}

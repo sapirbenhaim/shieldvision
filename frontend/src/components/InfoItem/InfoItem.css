@@ -1,0 +1,15 @@
+#infoImg {
+    width: 100px;
+    margin-top: 15px;
+}
+
+#infoItemTitle {
+    color: #FFFFFF;
+}
+
+#infoItemText {
+    font-size: medium;
+    color: #F1F1F1;
+    line-height: 25px;
+    margin: 20px;
+}

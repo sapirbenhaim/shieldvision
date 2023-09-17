@@ -1,0 +1,63 @@
+@font-face {
+    font-family: SF Pro;
+    src: url('../../fonts/SFPRODISPLAYBOLD.OTF');
+}
+
+.NavBar {
+    display: none;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 60px;
+    z-index: 1;
+}
+
+.Link {
+    color: #A0A0A0;
+    text-decoration: none;
+    font-family: 'SF Pro';
+    margin-right: 30px;
+    font-weight: bold;
+    z-index: 1;
+}
+
+.NavContainer {
+    display: flex;
+    z-index: 1;
+}
+
+.ButtonContainer {
+    margin: 30px;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+}
+
+.LinkButton {
+    font-family: 'SF Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 60px;
+    text-decoration: none;
+    background: linear-gradient(89.7deg, #6C6EA2 0.26%, #8060C4 105.44%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    z-index: 1;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.btnSignIn {
+    background: linear-gradient(90.01deg, #303030 0.99%, #3A3E47 98.78%);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    width: 150px;
+    height: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+}

@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+
+.App {
+  text-align: center;
+  background-color: #F0F5FA;
+}
+
+.pageTitle {
+  position: absolute;
+  margin-left: 260px;
+  margin-top: 70px;
+  font-family: 'Roboto';
+}
+
+.blackText {
+  color: black;
+  font-family: Roboto;
+}
+
+

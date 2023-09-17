@@ -1,0 +1,15 @@
+#userEditContainer .inputContainer {
+    margin-top: 0px;
+} 
+
+#userEditContainer .submitButton {
+    margin-top: 10px;
+} 
+
+#userEditContainer select {
+    height: 40px;
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+  

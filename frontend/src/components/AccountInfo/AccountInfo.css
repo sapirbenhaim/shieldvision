@@ -1,0 +1,81 @@
+#profileImg {
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    border: 5px solid white;
+}
+
+#profileTitle {
+    color: white;
+    font-size: medium;
+}
+
+#profileIcon {
+    width: 20px;
+    height: 20px;
+}
+
+.item2 {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item2 #email {
+    font-size: medium;
+    margin-top: -10px;
+    color: white;
+}
+
+.accountInfoLine {
+    color: white;
+    margin: 0;
+}
+
+.accountInfoContainer {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content:center;
+    height: 200px;
+    width: 100%;
+    margin-bottom: -70px;
+}
+
+.accountPageItem {
+    position: fixed;
+    right: 60px
+}
+
+@media (max-width: 1100px) {
+    .accountPageItem {
+   
+        width: 90vw;
+        height: 300px;
+        margin-left: 60px;
+        display: flex;
+        flex-direction: row;
+        align-items:center;
+        justify-content: center;
+        position: relative;
+        margin-bottom: 30px;
+    }
+
+    .accountInfoContainer {
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+        justify-content:center;
+        height: 100px;
+        margin-bottom: 70px;
+        width: 200px;
+        margin-top: 210px;
+        margin-left: 30px;
+    }
+
+    .imageContainer {
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+}

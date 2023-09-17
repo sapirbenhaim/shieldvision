@@ -1,0 +1,149 @@
+#account {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.settingsContainer {
+    width: 400px;
+    height: 83vh;
+    min-height: 260px;
+    filter: drop-shadow(30px 30px 30px rgba(0, 0, 0, 0.25));
+    padding: 30px;
+    background-color: #FCFCFE;
+    border-radius: 30px;
+    box-sizing: border-box;   
+}
+
+.statisticsContainer {
+    width: 400px;
+    height: 83vh;
+    min-height: 260px;
+    filter: drop-shadow(30px 30px 30px rgba(0, 0, 0, 0.25));
+    padding: 30px;
+    background-color: #FCFCFE;
+    border-radius: 30px;
+    box-sizing: border-box;  
+}
+
+.accountContainer {
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-evenly;
+    margin-right: 300px;
+    margin-left: 200px;
+}
+
+/* Switch container */
+.switch-container {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    margin-right: 75px;
+  }
+  
+  /* The switch - the hidden input */
+  .switch input[type="checkbox"] {
+    display: none;
+  }
+  
+  /* Slider */
+  .slider {
+    position: absolute;
+    width: 60px;
+    height: 34px;
+    background-color: #ccc;
+    border-radius: 34px;
+  }
+  
+  /* Slider circle (knob) */
+  .slider::before {
+    content: "";
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background-color: #74AFF7;
+    top: 4px;
+    left: 4px;
+    transition: transform 0.2s;
+  }
+  
+  /* Checked state styles for the knob only */
+  .switch input[type="checkbox"]:checked + .slider::before {
+    transform: translateX(26px);
+  }
+
+  .switchInput {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+  }
+
+  .switchSettingText {
+    margin-right: auto;
+  }
+
+  .statistic {
+    text-align: start;
+  }
+
+  #quickActionLinkText {
+    height: 25px;
+    text-decoration:none;
+    font-weight: bold;
+    font-size: medium;
+    text-align: start;
+    height: 25px;
+    margin: 0;
+    color: black;
+  }
+
+  #quickActionsTitle {
+    margin-top: 30px;
+  }
+
+  #statisticsTitle {
+    margin-bottom: 70px;
+  }
+  
+@media (max-width: 1100px) {
+    .accountContainer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .settingsContainer {
+        width: 100vw;
+        height: 300px;
+        min-height: 260px;
+        filter: drop-shadow(30px 30px 30px rgba(0, 0, 0, 0.25));
+        padding: 30px;
+        background-color: #FCFCFE;
+        border-radius: 30px;
+        box-sizing: border-box;  
+        margin-bottom: 70px;
+        width: 90vw;
+    }
+
+    .statisticsContainer {
+        width: 100vw;
+        height: 600px;
+        min-height: 260px;
+        filter: drop-shadow(30px 30px 30px rgba(0, 0, 0, 0.25));
+        padding: 30px;
+        background-color: #FCFCFE;
+        border-radius: 30px;
+        box-sizing: border-box;  
+        margin-bottom: 70px;
+        width: 90vw;
+    }
+    .accountContainer {
+        display: flex;
+        margin-top: 100px;
+        justify-content: space-evenly;
+        margin-right: 0px;
+        margin-left: 25px;
+    }
+    
+}

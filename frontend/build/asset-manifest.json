@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6d2e5f71.css",
+    "main.js": "/static/js/main.9f48dc40.js",
+    "static/media/test.mp4": "/static/media/test.50cdba447428a1feddd3.mp4",
+    "static/media/servicesHeader.png": "/static/media/servicesHeader.c0ff9d9f5e450ecfc042.png",
+    "static/media/brain.png": "/static/media/brain.eef4dadc47571737a97f.png",
+    "static/media/dashboard.png": "/static/media/dashboard.75bac592662c3cd16611.png",
+    "static/media/device.png": "/static/media/device.e74ff232820cbbf622eb.png",
+    "static/media/SFPRODISPLAYBOLD.OTF": "/static/media/SFPRODISPLAYBOLD.b1f4d2c69fa808ebca12.OTF",
+    "static/media/SFPRODISPLAYREGULAR.OTF": "/static/media/SFPRODISPLAYREGULAR.d1f5e6e16dd4f75c3950.OTF",
+    "static/media/chip.png": "/static/media/chip.dc8cdc64d47d8a53faea.png",
+    "static/media/app_poster.png": "/static/media/app_poster.ef1b7aa797ced61b7337.png",
+    "static/media/logo.png": "/static/media/logo.f14c5352ca13024cca64.png",
+    "static/media/nanotec.png": "/static/media/nanotec.4d88c1a82f21c40d0a9c.png",
+    "static/media/logo_white.png": "/static/media/logo_white.6572e3b639cf5ea42b3e.png",
+    "static/media/vision.png": "/static/media/vision.88c3a058ecb6743bf508.png",
+    "static/media/upgrade.png": "/static/media/upgrade.07f83be396f3899e50e4.png",
+    "static/media/ai.png": "/static/media/ai.d2e8f9bb451c1d6a3370.png",
+    "static/media/cyber-security.png": "/static/media/cyber-security.5c78cb80c11bc803a84d.png",
+    "static/media/detection_example.jpeg": "/static/media/detection_example.44edb6a39a20865a7cba.jpeg",
+    "static/media/verified.png": "/static/media/verified.46dffad740037ac82329.png",
+    "static/media/camera.png": "/static/media/camera.03f8d8563eee25a58098.png",
+    "index.html": "/index.html",
+    "main.6d2e5f71.css.map": "/static/css/main.6d2e5f71.css.map",
+    "main.9f48dc40.js.map": "/static/js/main.9f48dc40.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6d2e5f71.css",
+    "static/js/main.9f48dc40.js"
+  ]
+}

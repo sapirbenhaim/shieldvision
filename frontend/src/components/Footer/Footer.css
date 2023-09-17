@@ -1,0 +1,28 @@
+@font-face {
+    font-family: SF ProBold;
+    src: url('../../fonts/SFPRODISPLAYBOLD.OTF');
+}
+
+@font-face {
+    font-family: SF Pro;
+    src: url('../../fonts/SFPRODISPLAYREGULAR.OTF');
+}
+
+
+#footer {
+    font-family: SF Pro;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding: 8px;
+    text-align: center;
+    color: #A0A0A0;
+    height: 70px;
+    margin-bottom: -20px;
+    background: linear-gradient(90.01deg, #303030 0.99%, #3A3E47 98.78%);
+}
+
+#footerText {
+    font-size: medium;
+}

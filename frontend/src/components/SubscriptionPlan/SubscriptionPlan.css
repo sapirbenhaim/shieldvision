@@ -1,0 +1,131 @@
+.contentIcon {
+    width: 20px;
+    height: 20px;
+}
+
+.contentText {
+    font-size: small;
+}
+
+.PlanContent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.planTitle {
+    color: black;
+}
+
+.planPrice {
+    color: black;
+    font-size: 3em;
+    font-weight: bold;
+    margin-top: -15px;
+}
+
+.planOldPrice {
+    text-decoration: line-through;
+    color: rgb(93, 91, 91);
+    width: 100%;
+    font-size: 1.2em;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+    margin-top: -40px;
+}
+
+.paymentPlan {
+    margin-top: -55px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+    font-size: medium;
+    color: black;
+}
+
+.planInfo {
+    margin-top: -50px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: medium;
+    color: black;
+}
+
+.planSubInfo {
+    margin-top: -50px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: medium;
+}
+
+.planContentContainer {
+    display: flex;
+    height: 200px;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-evenly;
+    margin-top: -50px;
+}
+
+.middlePlanContentContainer {
+    display: flex;
+    height: 200px;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+
+.PlanContent {
+    height: 30px;
+    text-align: left;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contentText {
+    margin-top: auto;
+    margin-left: 10px;
+}
+
+.btnUpgradePlan {
+    background: linear-gradient(180deg, #4172D2 0%, #74AFF7 100%);
+    box-shadow: 30px 30px 30px rgba(0, 0, 0, 0.25);
+    font-size: medium;
+    font-weight: bold;
+    border: none;
+    width: 330px;
+    height: 40px;
+    margin-left: 15px;
+    margin-right: 15px;
+    color: white;
+    border-radius: 10px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.paymentContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F0F5FA;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.SubscriptionPlan {
+    position: relative;
+}
+
+@media (max-width: 1100px) { 
+    .SubscriptionPlan {
+        position: relative;
+    }
+}

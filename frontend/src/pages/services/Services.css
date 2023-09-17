@@ -1,0 +1,13 @@
+#servicesHeaderImg {
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 0;
+}
+
+#services {
+    position: relative;
+    background: linear-gradient(90.01deg, #303030 0.99%, #3A3E47 98.78%);
+}
