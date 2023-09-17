@@ -8,6 +8,7 @@ const authRoutes = require('./routes/auth');
 const streamRoutes = require('./routes/stream');
 const camerasRoutes = require('./routes/cameras');
 const subscriptionRoutes = require('./routes/premium');
+const { logMessage } = require('./utils/logger');
 
 // database connection
 connection();
@@ -21,9 +22,6 @@ app.use("/api/authentication", authRoutes);
 app.use('/api/stream', streamRoutes);
 app.use('/api/cameras', camerasRoutes);
 app.use('/api/subscription', subscriptionRoutes);
-
-console.log(path.join(__dirname, 'frontend', 'build', 'index.html'));
-
 
 // Handle all other routes by serving the React app
 app.get('/', (_, res) => {

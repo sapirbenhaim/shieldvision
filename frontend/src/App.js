@@ -26,9 +26,17 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Routes>
+          {/** 
+           * Yes the base path leads to the sign in page .
+           * After some research most dashboards saas apps do :)
+           * */}
           <Route path='/' element={<SignIn />} />
 
-          {/* Deprecated / currently not in use routes due to lack of time */}
+          {/* 
+            * Deprecated / currently not in use routes, due to lack of time.
+            * The same functionality/ui is implemented in a different way.
+            * In different/seperate components.
+            **/}
           <Route path='/about' element={<About />} />
           <Route path='/services' element={<Services />} />
           <Route path='/pricing' element={<Pricing />} />
@@ -49,7 +57,16 @@ function App() {
           {user && <Route path='/admin' exact element={<AdminPanel />} />}
           
           {/* Redirect to signin if there is no user token */}
+          {/* Bugfix -> no 404 page implemented yet, quick fix */}
+          {/* TODO: implement 404 page */}
           <Route path='/dashboard' exact element={<Navigate replace to="/signin" />} />
+          <Route path='/cameras' exact element={<Navigate replace to="/signin" />} />
+          <Route path='/smartVision' exact element={<Navigate replace to="/signin" />} />
+          <Route path='/detections' exact element={<Navigate replace to="/signin" />} />
+          <Route path='/support' exact element={<Navigate replace to="/signin" />} />
+          <Route path='/account' exact element={<Navigate replace to="/signin" />} />
+          <Route path='/settings' exact element={<Navigate replace to="/signin" />} />
+          <Route path='/admin' exact element={<Navigate replace to="/signin" />} />
         </Routes>
       </BrowserRouter>
     </div>
