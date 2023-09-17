@@ -52,7 +52,7 @@ Before you begin, make sure you have the following software installed:
 
 4. Run - cd frontend
 
-5. Run - npm install to install the react dependencies
+5. Run - npm i --legacy-peer-deps to install the react dependencies
 
 6. Run - npm start
 
@@ -76,6 +76,9 @@ Ofcourse because of a severe lack of funding :P this should just be run as two s
 2. The frontend with, cd frontend, npm start.
 
 ### Important
+
+Make sure to install react dependencies with: npm i --legacy-peer-deps
+Because some legacy dependencies are used!!
 
 Make sure you have mongodb installed and running on the following url:port
 mongodb://localhost:27017/ ( This should be the default port. )
