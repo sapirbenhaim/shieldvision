@@ -52,7 +52,6 @@ const MobileMenu = ({ setMobileMenu }) => {
       <img className='line' src={Line} alt="Divider Line" />
       <MenuItem title={'Support'} icon={Help} route={'support'} selectedTab={selectedTab} setSelectedTab={setSelectedTab} />
       <MenuItem title={'Account'} icon={Account} route={'account'} selectedTab={selectedTab} setSelectedTab={setSelectedTab} />
-      <MenuItem title={'Settings'} icon={Settings} route={'settings'} selectedTab={selectedTab} setSelectedTab={setSelectedTab} />
       <img className='line' src={Line} alt="Divider Line" />
       {isAdmin && <MenuItem title={'Admin Panel'} icon={Admin} route={'admin'} selectedTab={selectedTab} setSelectedTab={setSelectedTab} />}
     </div>
